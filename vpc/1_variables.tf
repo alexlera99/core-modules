@@ -144,7 +144,7 @@ variable "public_nacls_ingress" {
       protocol    = "tcp",
       from_port   = 443,
       to_port     = 443,
-      cidr_block  = "0.0.0.0/0",
+      cidr_block  = "1.2.3.4/32",
       icmp_code   = null,
       icmp_type   = null,
       egress      = false
