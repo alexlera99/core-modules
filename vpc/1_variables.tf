@@ -139,7 +139,7 @@ variable "public_nacls_ingress" {
   }))
   default = [
     {
-      rule_number = 1500,
+      rule_number = 1501,
       action      = "allow",
       protocol    = "tcp",
       from_port   = 443,
